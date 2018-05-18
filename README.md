@@ -6,12 +6,14 @@ Slacker
 |build status|_
 |gitter chat|_
 
-.. image:: https://raw.githubusercontent.com/os/slacker/master/static/slacker.jpg
+
+
+![](static/slackest.png)
 
 About
 =====
 
-Slacker is a full-featured Python interface for the `Slack API
+Slackest is a fork of Slacker (which in turn is a "full-featured Python interface for the `Slack API
 <https://api.slack.com/>`_.
 
 Examples
@@ -23,7 +25,7 @@ Examples
     slack = Slacker('<your-slack-api-token-goes-here>')
 
     # Send a message to #general channel
-    slack.chat.post_message('#general', 'Hello fellow slackers!')
+    slack.chat.post_message('#general', 'Hello fellow slackers!')!
 
     # Get users list
     response = slack.users.list()
