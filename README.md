@@ -1,4 +1,3 @@
-=======
 Slackest
 =======
 ![](static/slackest.png)
