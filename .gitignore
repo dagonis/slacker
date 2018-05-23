@@ -1,6 +1,8 @@
 # Mac OS
 .DS_Store
 
+.pytest_cache
+
 # Python
 *.pyc
 *.pyo
