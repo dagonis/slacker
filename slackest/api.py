@@ -137,3 +137,6 @@ class RTM(BaseAPI):
 
     def connect(self):
         return self.get('rtm.connect')
+
+    def rtm_read(self):
+        return self.get('rtm.read')
